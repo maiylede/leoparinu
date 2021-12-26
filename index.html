@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+
+               <img src="files/leopard.jpg" id="icon" width="37" height="37">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leopard Inu</title>
+    <link rel="shortcut icon" type="image/png" href="files/favicon.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- The following link is to the Font "Dosis" which I used -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,700">
+</head>
+
+
+<body>
+    </div>
+        <div class="backbanner">
+            <video autoplay muted loop>
+                <source src="files/moonvid.mp4" type="video/mp4">
+            </video>
+            <!--Mute button for the music right here-->
+            <div class="mutebutton">
+               <img src="files/soundon.png" id="icon" width="37" height="37">
+            </div>
+            <audio autoplay loop id="BackgroundSong">
+                <source src="files/HappyLoop.mp3" type="audio/mp3">
+            </audio>
+            <!-- If you want to remove the hamburger menu, remove the part which is between these two comments-->
+            <div class="navcontent">
+                <nav class="navbar">
+                    <div class="hambmenu">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>    
+                    
+                    
+                    <!--This is the list for the hamburger menu, if you want to edit it, you have to replace
+                    "Insert-Something" with whatever you want-->
+                    <!--Every website or whatever, you have to put in the "" where the # is standing right now-->
+
+                    <ul class="navlist">
+                        <li class="navitem">
+                            <a href="https://pancakeswap.finance/swap?outputCurrency=0xb67800d46F9Ad3830C4682bb46d73c0aB163d7b5 " class="nav-link">PancakeSwap</a>
+                        </li>
+                        <li class="navitem">
+                            <a href="https://www.dextools.io/app/bsc/pair-explorer/0xb67800d46F9Ad3830C4682bb46d73c0aB163d7b5" class="nav-link">DexTools</a>
+                        </li>
+                        <li class="navitem">
+                            <a href="https://poocoin.app/tokens/0xb67800d46F9Ad3830C4682bb46d73c0aB163d7b5" class="nav-link">PooCoin</a>
+                        </li>
+                        <li class="navitem">
+                            <a href="https://bscscan.com/token/0xb67800d46F9Ad3830C4682bb46d73c0aB163d7b5" class="nav-link">BSCscan</a>
+                        </li>
+                    </ul>                
+                </nav>
+    
+                                  <font color="#9932CC">    <center> <h2>🐆  Leopard Inu 🐆</h2> </center>
+                                                        <font color="#9932CC">    <center> <h1>  ________________________</h1> </center>
+            <font color="#9932CC">  
+                      <font color="#9932CC">    <center> <h1>  🐆Total Supply 678-B</h1> </center>
+                                   <font color="#9932CC">    <center> <h1> 100% FairLaunch / 101-Year Liquidity Lock!</h1> </center>
+                                          <font color="#9932CC">       <center> <h1> Transactions: 3% Back To Holders and
+                                    2% for Liquidity🐆</h1> </center>
+                                    
+                                            </div>
+            
+                                    <li class="navitem">
+                            <a href="https://t.me/leopardinuofficial" class="nav-link">Telegram</a>
+                        </li>
+                    </ul>                
+                </nav>
+            </div>
+            <!-- If you want to remove the hamburger menu, remove the part which is between these two comments-->
+            <div class="button-area">
+                <div class="button-link">
+                    <!--make sure, that you put the "https://" before your website link-->
+                <a href="https://pancakeswap.finance/swap?outputCurrency=0xb67800d46F9Ad3830C4682bb46d73c0aB163d7b5" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>              
+                    
+                   🐆 Buy 🐆</a>
+                </div>
+
+                <div class="button-scan">
+                    <!--make sure, that you put the "https://" before your website link-->
+                <a href=" https://www.mudra.website/?certificate=yes&type=0&lp=0x7a3ba2b9b7c00655c040479aadadd55bff44665e" target="_blank">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>              
+                    
+                  🐆  Audit 🐆</a>
+                </div>
+
+                    
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!--This is the JS for the Music Mute button-->
+    <script>
+        var BackgroundSong = document.getElementById("BackgroundSong");
+        var icon = document.getElementById("icon");
+        
+        icon.onclick = function () {
+            if(BackgroundSong.paused) {
+                BackgroundSong.play();
+                icon.src = "files/soundon.png";
+            } else {
+                BackgroundSong.pause();
+                icon.src = "files/soundoff.png";
+             }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
